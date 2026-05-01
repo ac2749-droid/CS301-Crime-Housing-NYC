@@ -6,13 +6,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Build Docker image
         run: docker build -t cs301-crime-housing .
       - name: Run container
         run: docker run --rm -v ${{ github.workspace }}/output:/output cs301-crime-housing
       - name: Upload output charts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: visualizations
           path: output/

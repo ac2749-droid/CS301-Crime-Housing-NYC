@@ -25,4 +25,4 @@ using real arrest data and property sale records.
 
 ## Links
 - Google Colab Notebook: https://colab.research.google.com/drive/1in4mW_sDLFv6S81hFo0V3h5XAAG5gOtH
-- Video Presentation: [Add your video link here]
+  
